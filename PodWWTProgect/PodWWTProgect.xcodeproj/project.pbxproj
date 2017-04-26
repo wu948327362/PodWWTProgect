@@ -14,6 +14,8 @@
 		48B909651EACF8AB0052023C /* PodWWTProgect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48B909631EACF8AB0052023C /* PodWWTProgect.xcdatamodeld */; };
 		48B909671EACF8AB0052023C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48B909661EACF8AB0052023C /* Assets.xcassets */; };
 		48B9096A1EACF8AB0052023C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48B909681EACF8AB0052023C /* LaunchScreen.storyboard */; };
+		48F1653C1EB0F2FC00F57586 /* PodWWTProgectSources in Resources */ = {isa = PBXBuildFile; fileRef = 48F1653B1EB0F2FC00F57586 /* PodWWTProgectSources */; };
+		48F1653E1EB0F31E00F57586 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 48F1653D1EB0F31E00F57586 /* Resources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		48B909661EACF8AB0052023C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48B909691EACF8AB0052023C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48B9096B1EACF8AB0052023C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F1653B1EB0F2FC00F57586 /* PodWWTProgectSources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PodWWTProgectSources; sourceTree = "<group>"; };
+		48F1653D1EB0F31E00F57586 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 		48B909561EACF8AB0052023C /* PodWWTProgect */ = {
 			isa = PBXGroup;
 			children = (
+				48F1653D1EB0F31E00F57586 /* Resources */,
+				48F1653B1EB0F2FC00F57586 /* PodWWTProgectSources */,
 				48B9095A1EACF8AB0052023C /* AppDelegate.h */,
 				48B9095B1EACF8AB0052023C /* AppDelegate.m */,
 				48B9095D1EACF8AB0052023C /* ViewController.h */,
@@ -140,8 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				48B9096A1EACF8AB0052023C /* LaunchScreen.storyboard in Resources */,
+				48F1653C1EB0F2FC00F57586 /* PodWWTProgectSources in Resources */,
 				48B909671EACF8AB0052023C /* Assets.xcassets in Resources */,
 				48B909621EACF8AB0052023C /* Main.storyboard in Resources */,
+				48F1653E1EB0F31E00F57586 /* Resources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,7 @@
 				48B909701EACF8AB0052023C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
