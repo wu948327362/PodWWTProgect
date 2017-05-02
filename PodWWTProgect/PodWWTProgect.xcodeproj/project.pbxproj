@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4863CF161EB8D2C0005588C0 /* PodWWTProgectSources in Resources */ = {isa = PBXBuildFile; fileRef = 4863CF151EB8D2C0005588C0 /* PodWWTProgectSources */; };
+		4863CF181EB8D2CB005588C0 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 4863CF171EB8D2CB005588C0 /* Resources */; };
 		48B909591EACF8AB0052023C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B909581EACF8AB0052023C /* main.m */; };
 		48B9095C1EACF8AB0052023C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B9095B1EACF8AB0052023C /* AppDelegate.m */; };
 		48B9095F1EACF8AB0052023C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B9095E1EACF8AB0052023C /* ViewController.m */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4863CF151EB8D2C0005588C0 /* PodWWTProgectSources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PodWWTProgectSources; sourceTree = "<group>"; };
+		4863CF171EB8D2CB005588C0 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 		48B909541EACF8AB0052023C /* PodWWTProgect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodWWTProgect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48B909581EACF8AB0052023C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		48B9095A1EACF8AB0052023C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				48B909681EACF8AB0052023C /* LaunchScreen.storyboard */,
 				48B9096B1EACF8AB0052023C /* Info.plist */,
 				48B909631EACF8AB0052023C /* PodWWTProgect.xcdatamodeld */,
+				4863CF171EB8D2CB005588C0 /* Resources */,
+				4863CF151EB8D2C0005588C0 /* PodWWTProgectSources */,
 				48B909571EACF8AB0052023C /* Supporting Files */,
 			);
 			path = PodWWTProgect;
@@ -140,8 +146,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				48B9096A1EACF8AB0052023C /* LaunchScreen.storyboard in Resources */,
+				4863CF161EB8D2C0005588C0 /* PodWWTProgectSources in Resources */,
 				48B909671EACF8AB0052023C /* Assets.xcassets in Resources */,
 				48B909621EACF8AB0052023C /* Main.storyboard in Resources */,
+				4863CF181EB8D2CB005588C0 /* Resources in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
