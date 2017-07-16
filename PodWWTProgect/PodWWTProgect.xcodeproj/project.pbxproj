@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24762530C5621E2DB45F773C /* libPods-PodWWTProgect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 956C879483BE2A2CD71E2188 /* libPods-PodWWTProgect.a */; };
 		4863CF161EB8D2C0005588C0 /* PodWWTProgectSources in Resources */ = {isa = PBXBuildFile; fileRef = 4863CF151EB8D2C0005588C0 /* PodWWTProgectSources */; };
 		4863CF181EB8D2CB005588C0 /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 4863CF171EB8D2CB005588C0 /* Resources */; };
 		48B909591EACF8AB0052023C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B909581EACF8AB0052023C /* main.m */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E60D466FA6226420674B0B6 /* Pods-PodWWTProgect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodWWTProgect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PodWWTProgect/Pods-PodWWTProgect.debug.xcconfig"; sourceTree = "<group>"; };
 		4863CF151EB8D2C0005588C0 /* PodWWTProgectSources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PodWWTProgectSources; sourceTree = "<group>"; };
 		4863CF171EB8D2CB005588C0 /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 		48B909541EACF8AB0052023C /* PodWWTProgect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodWWTProgect.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,6 +34,8 @@
 		48B909661EACF8AB0052023C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48B909691EACF8AB0052023C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48B9096B1EACF8AB0052023C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		956C879483BE2A2CD71E2188 /* libPods-PodWWTProgect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PodWWTProgect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E27E2D22E52B7717C7880C1C /* Pods-PodWWTProgect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodWWTProgect.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodWWTProgect/Pods-PodWWTProgect.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24762530C5621E2DB45F773C /* libPods-PodWWTProgect.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		163EE49309400E9EF8B72313 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				956C879483BE2A2CD71E2188 /* libPods-PodWWTProgect.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		48B9094B1EACF8AB0052023C = {
 			isa = PBXGroup;
 			children = (
 				48B909561EACF8AB0052023C /* PodWWTProgect */,
 				48B909551EACF8AB0052023C /* Products */,
+				E39532186574A0CF9960B6F3 /* Pods */,
+				163EE49309400E9EF8B72313 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +103,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E39532186574A0CF9960B6F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2E60D466FA6226420674B0B6 /* Pods-PodWWTProgect.debug.xcconfig */,
+				E27E2D22E52B7717C7880C1C /* Pods-PodWWTProgect.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -95,9 +119,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48B9096E1EACF8AB0052023C /* Build configuration list for PBXNativeTarget "PodWWTProgect" */;
 			buildPhases = (
+				2CE605F52ABCBD4C5D6B1C5A /* [CP] Check Pods Manifest.lock */,
 				48B909501EACF8AB0052023C /* Sources */,
 				48B909511EACF8AB0052023C /* Frameworks */,
 				48B909521EACF8AB0052023C /* Resources */,
+				8E57C9F64402D264FCADE73E /* [CP] Embed Pods Frameworks */,
+				8AB2CF35CF9692E73BA42F67 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -154,6 +181,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CE605F52ABCBD4C5D6B1C5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8AB2CF35CF9692E73BA42F67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PodWWTProgect/Pods-PodWWTProgect-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E57C9F64402D264FCADE73E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PodWWTProgect/Pods-PodWWTProgect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		48B909501EACF8AB0052023C /* Sources */ = {
@@ -271,6 +346,7 @@
 		};
 		48B9096F1EACF8AB0052023C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E60D466FA6226420674B0B6 /* Pods-PodWWTProgect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PodWWTProgect/Info.plist;
@@ -282,6 +358,7 @@
 		};
 		48B909701EACF8AB0052023C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E27E2D22E52B7717C7880C1C /* Pods-PodWWTProgect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PodWWTProgect/Info.plist;
